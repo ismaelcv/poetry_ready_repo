@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-ready-repo"
+version = "0.1.0"
+description = ""
+authors = ["Ismael <ismaelcv@gmail.com>"]
+readme = "README.md"
+packages = [ { include = "poetry-ready-repo", from = "src" } ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+dash = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
